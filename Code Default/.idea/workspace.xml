@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb178e79-7802-465e-bc55-f7abc343aaa9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Code 0.1/.idea/Code 0.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code 0.1/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code 0.1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code 0.1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code 0.1/role.builder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code 0.1/role.carrier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code 0.1/role.harvester.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code 0.1/role.miner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code 0.1/role.upgrader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Code Default.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code/role.builder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code/role.harvester.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code/role.upgrader.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1mF1OtSoedLB5HiEWXD2Ep0TbvP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb178e79-7802-465e-bc55-f7abc343aaa9" name="Default Changelist" comment="" />
+      <created>1609074495349</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609074495349</updated>
+      <workItem from="1609074496577" duration="4266000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
