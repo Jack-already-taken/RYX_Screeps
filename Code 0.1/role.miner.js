@@ -1,5 +1,5 @@
 // +++++++++++++++++++++++++++++++++++++++++++++
-// Title: Screeps->Role->Harvester
+// Title: Screeps->Role->Miner
 // Developer: Furi Xiang
 // Date: 2020/12
 // +++++++++++++++++++++++++++++++++++++++++++++

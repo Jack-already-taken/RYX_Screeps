@@ -1,8 +1,10 @@
 // +++++++++++++++++++++++++++++++++++++++++++++
-// Title: Screeps->Role->Harvester
+// Title: Screeps->Role->Carrier
 // Developer: Furi Xiang
 // Date: 2020/12
 // +++++++++++++++++++++++++++++++++++++++++++++
+
+var reserve = require('reserve');
 
 var roleCarrier = {
     run: function(creep) {
@@ -24,10 +26,18 @@ var roleCarrier = {
             // What if length<0, set an alert.
         }
         else {
+            // Task board task(emergent tasks) goes here. Do not check the reservation.
+
+            // For self-regulated tasks(normal task)
             // Check if the resource is reserved.
-            var sources = creep.room.find(FIND_DROPPED_RESOURCES);
-            if (creep.pickup(sources[0]) === ERR_NOT_IN_RANGE) {
-                creep.moveTo(sources[0], {visualizePathStyle: {stroke: '#ffffff'}});
+            if (reserve.available_Energy_Source() > 0) {
+                var sources = creep.room.find(FIND_DROPPED_RESOURCES);
+                if (creep.pickup(sources[0]) === ERR_NOT_IN_RANGE) {
+                    creep.moveTo(sources[0], {visualizePathStyle: {stroke: '#ffffff'}});
+                }
+            }
+            else {
+                console.log('All energy is reserved.');
             }
         }
     }

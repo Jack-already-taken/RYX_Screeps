@@ -24,20 +24,20 @@ module.export.loop = function() {
     var harvesters = _.filter(Game.creeps, (creep) => creep.memory.role === 'harvester');
     var builder = _.filter(Game.creeps, (creep) => creep.memory.role === 'builder');
     var upgrader = _.filter(Game.creeps, (creep) => creep.memory.role === 'upgrader');
-    var hauler = _.filter(Game.creeps, (creep) => creep.memory.role === 'hauler');
+    var carrier = _.filter(Game.creeps, (creep) => creep.memory.role === 'carrier');
     var miner = _.filter(Game.screeps, (creep) => creep.memory.role === 'miner');
     console.log('Harvesters: ' + harvesters.length);
     console.log('Builder: ' + builder.length);
-    console.log('upgrader: ' + upgrader.length);
-    console.log('hauler: ' + hauler.length);
-    console.log('miner: ' + miner.length);
+    console.log('Upgrader: ' + upgrader.length);
+    console.log('Carrier: ' + carrier.length);
+    console.log('Miner: ' + miner.length);
 
     // Number control table goes here.
     // TODO The numbers haven't been decided.
     var num_Harvester = 2;
     var num_Builder = 2;
     var num_Upgrader = 3;
-    var num_Hauler = 4;
+    var num_Carrier = 4;
     var num_Miner = 4;
     // End
 
@@ -57,11 +57,11 @@ module.export.loop = function() {
             // TODO write spawn function inside the module in order to better decide the Type and Body part.
             // roleMiner.spawnNew();
         }
-        if (hauler.length < num_Hauler) {
-            var newName = 'Hauler' + (hauler.length + 1); // TODO how to append a number to the string
-            // console.log('Spawning new hauler: '+ newName);
+        if (carrier.length < num_Hauler) {
+            var newName = 'Hauler' + (carrier.length + 1); // TODO how to append a number to the string
+            // console.log('Spawning new carrier: '+ newName);
             // TODO write spawn function inside the module in order to better decide the Type and Body part.
-            // roleHauler.spawnNew();
+            // roleCarrier.spawnNew();
         }
         if (builder.length < num_Builder) {
             var newName = 'Builder' + (builder.length + 1); // TODO how to append a number to the string
@@ -77,6 +77,7 @@ module.export.loop = function() {
         }
     }
 
+    // Reserve module goes here.
     // For better calling Hauler and post transport task
     for (var name in Game.rooms) {
         // If it is mine

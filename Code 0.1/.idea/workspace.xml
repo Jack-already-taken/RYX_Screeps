@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89c1dad7-dbe6-4bc1-a558-91b899c99306" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Code 0.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.builder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.carrier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.harvester.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.miner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/role.upgrader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Code Default/.idea/Code Default.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Code Default/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Code Default/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Code Default/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code/role.builder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code/role.harvester.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/reserve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taskBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/role.builder.js" beforeDir="false" afterPath="$PROJECT_DIR$/role.builder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/role.carrier.js" beforeDir="false" afterPath="$PROJECT_DIR$/role.carrier.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/role.miner.js" beforeDir="false" afterPath="$PROJECT_DIR$/role.miner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/role.upgrader.js" beforeDir="false" afterPath="$PROJECT_DIR$/role.upgrader.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +39,13 @@
     <property name="javascript.nodejs.core.library.configured.version" value="12.19.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Code Default" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="CodeWithMe" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Screeps\Git_test\RYX_Screeps\Code 0.1" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,6 +58,9 @@
       <workItem from="1609074055196" duration="118000" />
       <workItem from="1609074182212" duration="10334000" />
       <workItem from="1609086160045" duration="427000" />
+      <workItem from="1609086839389" duration="297000" />
+      <workItem from="1609123222689" duration="412000" />
+      <workItem from="1609123674687" duration="4117000" />
     </task>
     <task id="LOCAL-00001" summary="Added some suggestions.&#10;Changed miner a little bit.&#10;Rewrote main.js.&#10;Added monitor part.">
       <created>1609086253786</created>
@@ -74,6 +74,43 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/Screeps/Git_test/RYX_Screeps/Code 0.1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added some suggestions.&#10;Changed miner a little bit.&#10;Rewrote main.js.&#10;Added monitor part." />
